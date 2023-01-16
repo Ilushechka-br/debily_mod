@@ -1,0 +1,71 @@
+{
+  "type": "tank",
+  "hitSize": 17,
+  "flying": "true",
+  "canBoost" : true,
+  "maxSpeed": 10,
+  "localizedName": "vlad",
+  "health": 20000,
+  "speed": 0.75,
+  "boostSpeed": 5,
+  "engineOffset": 45,
+  "engineSize": 10,
+  "weapons": [
+ {
+      "name": "vlad-dilda"
+      "x": 40,
+      "y": 0,
+      "recoil": 5,
+      "rotate": true,
+      "mirror": false,
+      "inaccuracy": 35,
+      "shootSound": "shootBig",
+      "shoot": {
+        "shots": 20,
+        "shotDelay": 1
+      },
+      "reload": 50,
+      "bullet": {
+        "range": 50,
+        "homingPower": 0.04,
+        "drag": 0.01,
+        "height": 15,
+        "width" : 15,
+        "frontColor": "#ffffff",
+        "backColor": "#ffffff",
+        "trailColor": "#ffffff",
+        "shootEffect": "shootLiquid",
+        "damage": 100,
+        "spin": 4,
+        "speed": 4,
+        "lifetime": 80
+      } 
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "reload": 5,
+      "shootSound": "flame",
+      "rotate": true,
+      "mirror": true,
+      "bullet": {
+        "type": "BasicBulletType",
+        "hitSize": 7,
+        "lifetime": 25,
+        "pierce": true,
+        "width": 1,
+        "height": 1,
+        "length": 1,
+        "collidesAir": true,
+        "statusDuration": 600,
+        "status": "burning",
+        "shootEffect": "shootPyraFlame",
+        "hitEffect": "hitFlameSmall",
+        "despawnEffect": "none",
+        "hittable": false,
+        "speed": 4,
+        "damage": 40
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "type": "tank",
+  "hitSize": 17,
+  "localizedName": "Illya",
+  "health": 20000,
+  "speed": 0.8,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 3,
+      "reload": 100,
+      "mirror": false,
+      "rotate": true,
+      "bullet": {
+       "type": "ArtilleryBulletType",
+             "damage": 750,
+             "speed": 7.5,
+             "range": 225,
+             "lifetime": 75,
+             "knockback": 10,
+             "width": 10,
+             "height": 25,
+             "collidesTiles": true,
+             "splashDamageRadius": 35,
+             "pierceCap": 3,
+             "pierceBuilding": true,
+             "splashDamage": 750,
+      }
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "rotate": true,
+      "mirror": true,
+      "shootSound": "shootBig",
+      "shoot": {
+        "shots": 5,
+        "shotDelay": 5
+      },
+      "reload": 31,
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 7.5,
+        "height": 7.5,
+        "damage": 15,
+        "speed": 4,
+        "lifetime": 60,
+        "fragBullets": 7,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "width": 5,
+          "damage": 10,
+          "height": 12,
+          "shrinkY": 1,
+          "lifetime": 20,
+          "despawnEffect": "none",
+          "collidesGround": true
+        }
+      } 
+    }
+  ]
+}

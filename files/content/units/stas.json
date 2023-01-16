@@ -1,0 +1,67 @@
+{
+  "type": "flying",
+  "hitSize": 17,
+  "flying": true,
+  "engineOffset": 50,
+  "engineSize": 10,
+  "localizedName": "stas",
+  "health": 14000,
+  "speed": 0.75,
+  "AI": "FlyingAI",
+  abilities: [
+   {
+      type: ForceFieldAbility
+      cooldown: 50
+      radius: 100
+      max: 5000
+      regen: 7
+  } 
+  ]
+  "weapons": [
+    {
+      "x": 10,
+      "y": 0,
+      "reload": 3,
+      "reload": 3,
+      "shootEffect": "shootLiquid",
+      "inaccuracy": 2,
+      "mirror": true,
+      "rotate": true,
+      "bullet": {
+        "type": "LiquidBulletType",
+        "toColor": "#000000",
+        "liquid": "oil",
+        "range":75,
+        "lifetime": 45,
+        "speed": 4,
+        "knockback": 1.3,
+        "damage": 0.2,
+        "statusDuration": 240,
+        "status": "tarred",
+        "drag": 0.001,
+        "orbSize": 5,
+        "puddleSize": 200
+      }
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "rotate": false,
+      "mirror": false,
+      "shootSound": "shootBig",
+      "ejectEffect": "casing2",
+      "reload": 1.5,
+      "bullet": {
+        "type": "BasicBulletType",
+        "range": 75,
+        "width": 10,
+        "height": 13,
+        "shootEffect": "shootBig",
+        "smokeEffect": "shootBigSmoke",
+        "damage": 28,
+        "speed": 8,
+        "lifetime": 70,
+      } 
+    }
+  ]
+}

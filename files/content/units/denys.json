@@ -1,0 +1,93 @@
+{
+  "type": "tank",
+  "hitSize": 17,
+  "localizedName": "denys",
+  "health": 20000,
+  "speed": 0.75,
+  "weapons": [
+      {
+      "x": 50,
+      "y": 40,
+      "mirror": false,
+      "rotate": true,
+      "reload": 100,
+      "firingMoveFract": 0.5,
+      "shootSound": "laserbig",
+      "loopSound": "beam",
+      "loopSoundVolume": 2,
+      "shootEffect": "shootBigSmoke2",
+      "continuous": true,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "length": 200,
+        "damage": 75,
+        "lifetime": 230,
+        "drawSize": 420,
+        "hitEffect": "hitMeltdown",
+        "hitColor": "meltdownHit",
+        "status": "melting",
+        "incendChance": 0.4,
+        "incendSpread": 5,
+        "incendAmount": 1,
+         }
+      },
+      {
+      "x": -60,
+      "y": 30,
+      "mirror": false,
+      "rotate": true,
+      "reload": 100,
+      "firingMoveFract": 0.5,
+      "shootSound": "laserbig",
+      "loopSound": "beam",
+      "loopSoundVolume": 2,
+      "shootEffect": "shootBigSmoke2",
+      "continuous": true,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "length": 200,
+        "damage": 75,
+        "lifetime": 230,
+        "drawSize": 420,
+        "hitEffect": "hitMeltdown",
+        "hitColor": "meltdownHit",
+        "status": "melting",
+        "incendChance": 0.4,
+        "incendSpread": 5,
+        "incendAmount": 1,
+         }
+      },
+      {
+      "x" : 0,
+      "y" : 0,
+      "reload": 300,
+      "inaccuracy":20,
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 30,
+        "barrels": 5,
+        "spread": 10,
+        "shotDelay": 1
+      },
+      "bullet": {
+        "type": "MissileBulletType",
+        "range": 250,
+        "lifetime": 230,
+        "homingPower": 0.1,
+        "damage": 18,
+        "speed": 3.7,
+        "height": 8,
+        "width": 8,
+        "shrinkY": 0,
+        "splashDamageRadius": 25,
+        "splashDamage": 15,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion"
+        "frontColor": "#03fc24",
+        "backColor": "#ff860f",
+        "trailColor": "#ff860d"
+        "shrinkY": -1
+      }
+    }
+  ]
+}
