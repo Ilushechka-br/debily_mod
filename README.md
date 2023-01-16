@@ -1,2 +1,2 @@
 # debily_mod
-Debyly mod
+Debily mod
