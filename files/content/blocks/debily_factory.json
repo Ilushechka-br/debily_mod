@@ -1,0 +1,54 @@
+{
+  "type": "unitFactory",
+  "name": "Debily Factory",
+  "size": 5,
+  "plans": [
+    {
+      "unit": "illya",
+      "requirements": [
+        "graphite/500",
+        "lead/1500",
+        "silicon/500",
+        "metaglass/300"
+      ],
+      "time": 8500
+    },
+    {
+      "unit": "stas",
+      "requirements": [
+        "graphite/300",
+        "copper/1500",
+        "silicon/500",
+        "phase-fabric/50"
+      ],
+      "time": 8500
+    },
+    {
+      "unit": "vlad",
+      "requirements": [
+        "graphite/500",
+        "lead/1500",
+        "silicon/500",
+        "metaglass/300",
+        "plastanium/100"
+      ],
+      "time": 8500
+    },
+    {
+      "unit": "denys",
+      "requirements": [
+        "graphite/300",
+        "copper/1500",
+        "silicon/500",
+        "phase-fabric/50"
+      ],
+      "time": 8500
+    }
+    ],
+  "requirements": [
+        "copper/500",
+        "lead/500",
+        "silicon/300"
+    ],
+  "category": "units"
+ }
