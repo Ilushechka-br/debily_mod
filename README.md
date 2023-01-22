@@ -7,7 +7,7 @@
 <div>
   <h3>
   
-  Featuresn:
+  Features :
 
   <h3>
 <div>
