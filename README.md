@@ -10,6 +10,17 @@
   </h2>
 </div>
 
+<div align="center">
+  <p>
+    ___   ___
+  /    \_/    \
+  \          /
+    \      /
+      \  /
+     
+  </p>
+</div>
+
 <div align="left">
   <p>
   
