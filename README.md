@@ -5,11 +5,9 @@
 </div>
 
 <div align="center">
-  <h3>
-  
+  <h2>
   Features :
-
-  </h3>
+  </h2>
 </div>
 
 <div align="left">
