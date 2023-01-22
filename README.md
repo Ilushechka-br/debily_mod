@@ -12,7 +12,7 @@
   <h3>
 <div>
 
-<div>
+<div align="left">
   <h5>
   
   • 4 new units
