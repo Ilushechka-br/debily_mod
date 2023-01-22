@@ -2,6 +2,15 @@
   <h2>
   Just mod that will stay in your heart 
  </h2>
+ <div align="center">
+ <pre> ___    ___
+  /%%%%\_/%%%%\
+  \%%%%%%%%%%%/
+  \%%%%%%%%/
+  \%%%%%/
+  \%%%/
+  \/</pre>
+</div>
 </div>
 
 <div align="center">
@@ -10,15 +19,7 @@
   </h2>
 </div>
 
-<div align="center">
-<pre> ___    ___
-  /%%%%\_/%%%%\
-  \%%%%%%%%%%%/
-  \%%%%%%%%/
-  \%%%%%/
-  \%%%/
-  \/</pre>
-</div>
+
 
 <div align="left">
   <p>
