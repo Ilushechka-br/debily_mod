@@ -1,11 +1,10 @@
-#Debily mod 
 <div align="center"> 
   <h2>
   Just mod that will stay in your heart 
   <h2>
 <div>
-• 4 new units 
+• 4 new units
 
-• debily  
+• debily
 
-• 1 Unit factory 
+• 1 Unit factory
