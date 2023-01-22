@@ -4,7 +4,7 @@
  </h2>
 </div>
 
-<div>
+<div align="center">
   <h3>
   
   Features :
