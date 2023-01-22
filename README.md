@@ -1,16 +1,16 @@
 <div align="center"> 
   <h2>
   Just mod that will stay in your heart 
-  <h2>
-<div>
+ </h2>
+</div>
 
 <div>
   <h3>
   
   Features :
 
-  <h3>
-<div>
+  </h3>
+</div>
 
 <div align="left">
   <p style="font-size:10px;">
@@ -21,5 +21,5 @@
 
   • 1 Unit factory
 
-  <p>
-<div>
+  </p>
+</div>
