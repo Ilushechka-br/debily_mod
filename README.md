@@ -5,7 +5,7 @@
   <h5>
   • 4 new units
 
-  • debily
+  • Debily
 
   • 1 Unit factory
   <h5>
