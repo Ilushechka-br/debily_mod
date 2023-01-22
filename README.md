@@ -13,7 +13,7 @@
 <div>
 
 <div align="left">
-  <p1>
+  <p style="font-size:18px;">
   
   • 4 new units
 
@@ -21,5 +21,5 @@
 
   • 1 Unit factory
 
-  <p1>
+  <p>
 <div>
