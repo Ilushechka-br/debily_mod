@@ -1,8 +1,8 @@
 # debily_mod
 Debily mod 
 
-• 4 new units
+• 4 new units 
 
-• debily 
+• debily  
 
-• 1 Unit factory
+• 1 Unit factory 
