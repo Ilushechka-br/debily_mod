@@ -13,7 +13,7 @@
 <div>
 
 <div align="left">
-  <p style="font-size:18px;">
+  <p style="font-size:10px;">
   
   • 4 new units
 
