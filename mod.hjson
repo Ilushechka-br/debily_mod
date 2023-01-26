@@ -1,5 +1,5 @@
 {
-  displayName: Debily v4
+  displayName: Debily
   repo: filler123/Debily
   name: Debily v4
   
@@ -19,5 +19,5 @@
   
   subtitle: "Ugagagaggagagagaaggagag"
   minGameVersion: 136
-  version: 3
+  version: 4.0.1
 }
