@@ -1,6 +1,6 @@
 {
   "type": "unitFactory",
-  "name": "Debily Factory",
+  "name": "debily-factory",
   "size": 5,
   "plans": [
     {
