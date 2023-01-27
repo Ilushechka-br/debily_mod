@@ -1,6 +1,7 @@
 {
   "type": "unitFactory",
   "name": "debily-factory",
+  "hasPower": true,
   "size": 5,
   "plans": [
     {
@@ -50,5 +51,9 @@
         "lead/500",
         "silicon/300"
     ],
+ "consumes": {
+        "power": 17
+    },
+
   "category": "units"
  }
