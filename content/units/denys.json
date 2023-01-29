@@ -1,7 +1,7 @@
 {
   "type": "tank",
   "hitSize": 17,
-  "localizedName": "denys",
+  "localizedName": "Denys",
   "health": 20000,
   "speed": 0.75,
   "weapons": [

@@ -4,7 +4,7 @@
   "flying": "true",
   "canBoost" : true,
   "maxSpeed": 10,
-  "localizedName": "vlad",
+  "localizedName": "Vlad",
   "health": 20000,
   "speed": 0.75,
   "boostSpeed": 5,

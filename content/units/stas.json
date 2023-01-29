@@ -4,7 +4,7 @@
   "flying": true,
   "engineOffset": 50,
   "engineSize": 10,
-  "localizedName": "stas",
+  "localizedName": "Stas",
   "health": 14000,
   "speed": 0.75,
   "AI": "FlyingAI",

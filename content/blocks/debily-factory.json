@@ -1,6 +1,6 @@
 {
   "type": "unitFactory",
-  "name": "debily-factory",
+  "localizedName": "Debily factory",
   "hasPower": true,
   "size": 5,
   "plans": [
@@ -10,17 +10,18 @@
         "graphite/500",
         "lead/1500",
         "silicon/500",
-        "metaglass/300"
+        "metaglass/300",
+        "debily-alloy/50"
       ],
       "time": 8500
     },
     {
       "unit": "stas",
       "requirements": [
-        "graphite/300",
+        "graphite/500",
         "copper/1500",
         "silicon/500",
-        "phase-fabric/50"
+        "debily-alloy/50"
       ],
       "time": 8500
     },
@@ -31,17 +32,18 @@
         "lead/1500",
         "silicon/500",
         "metaglass/300",
-        "plastanium/100"
+        "debily-alloy/100"
       ],
       "time": 8500
     },
     {
       "unit": "denys",
       "requirements": [
-        "graphite/300",
+        "graphite/500",
         "copper/1500",
         "silicon/500",
-        "phase-fabric/50"
+        "metaglass/300",
+        "debily-alloy/50"
       ],
       "time": 8500
     }
@@ -49,7 +51,8 @@
   "requirements": [
         "copper/500",
         "lead/500",
-        "silicon/300"
+        "silicon/300",
+        "debily-alloy/100"
     ],
  "consumes": {
         "power": 17

@@ -1,0 +1,42 @@
+{
+ "localizedName": "Debily smelter",
+ "description":
+  '''
+ Створює Дебіл-сплав з [purple]нестабільної пилюки дебілізму[grey] в навколишній матерії, притягуючи їх за допомогую фазового магніту
+  '''
+ "type": "GenericCrafter",
+ "size": 3,
+ "craftTime": 90,
+ "consumes":{
+  "power": 2,
+  "items": {
+   "items": [
+    "copper/5"
+    "lead/5"
+    "silicon/2"
+    "titanium/5"
+   ]
+  }
+ }
+ "craftEffect": {
+  "type": "ParticleEffect",
+  "length": 50,
+  "lifetime": 500,
+  "particles": 12,
+  "colorFrom": ee00ff,
+  "colorTo": 6d0075,
+  "sizeFrom": 3,
+  "sizeTo": 0,
+  "strokeFrom": 0,
+  "strokeTo": 1.2
+ }
+ "outputItem": "debily-alloy/1",
+ "category": "crafting"
+ "requirements": [
+  "copper/70"
+  "lead/60"
+  "silicon/100"
+  "phase-fabric/20"
+  "titanium/50"
+ ]
+}
