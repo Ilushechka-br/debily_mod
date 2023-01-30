@@ -36,5 +36,7 @@
 
   • 1 Crafter
 
+  • ∞ Debilism
+
   </p>
 </div>
