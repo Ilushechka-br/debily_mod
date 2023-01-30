@@ -1,0 +1,17 @@
+{
+ "localizedName": "Debily large wall",
+ "description":
+ '''
+ [grey]Використовує фазовий магніт аби тримати дебіл-сплав міцним. [purple]ПРИ ЗНИЩЕННІ МАГНІТІВ МОЖЛИВИЙ ВИБУХ
+ '''
+ "type": "Wall",
+ "health": 8960,
+ "size": 2,
+ "baseExplosiveness": 50, 
+ "flashHit": true,
+ "category": defense,
+ "requirements": [
+  "debily-alloy/32"
+  "phase-fabric/12"
+]
+}

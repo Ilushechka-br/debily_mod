@@ -1,5 +1,9 @@
 {
   "type": "unitFactory",
+  "description":
+  '''
+ [grey]Використовує неймовірну енергую дебіл-сплаву для створення механічних роботів які працюють на енергії [purple]ЧИСТОГО ДЕБІЛІЗМУ
+  '''
   "localizedName": "Debily factory",
   "hasPower": true,
   "size": 5,
@@ -32,7 +36,7 @@
         "lead/1500",
         "silicon/500",
         "metaglass/300",
-        "debily-alloy/100"
+        "debily-alloy/50"
       ],
       "time": 8500
     },
