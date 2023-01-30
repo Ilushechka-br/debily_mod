@@ -30,5 +30,11 @@
 
   • 1 Unit factory
 
+  • 1 Item
+
+  • 1 Set of walls
+
+  • 1 Crafter
+
   </p>
 </div>
