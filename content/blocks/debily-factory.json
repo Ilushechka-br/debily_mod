@@ -56,7 +56,7 @@
         "copper/500",
         "lead/500",
         "silicon/300",
-        "debily-alloy/100"
+        "debily-alloy/50"
     ],
  "consumes": {
         "power": 17
