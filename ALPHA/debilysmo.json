@@ -1,54 +1,54 @@
 {
-    "health": 2560,
-    "localizedName": "Debilysmo",
-    "description":
-     '''
-    [purple]testing
-     '''
-    "type": "ItemTurret",
-    "acceptCoolant": "true",
-    "range": 3000,
-    "reload": 150,
-    "inaccuracy": 15,
-    "rotateSpeed": 3.2,
-    "size": 3,
-    "category": "turret",
-    "requirements": [
-      "titanium/100",
-      "debily-alloy/75",
-      "plastanium/50",
-      "phase-fabric/50"
-    ],
-    "shoot": {
-      "type": "ShootAlternate",
-      "shots": 75,
-      "barrels": 1,
-      "spread": 10,
-      "shotDelay": 0.5,
-      "range": 300
-    },
-    "consumes": {
-      "power": 5
-    },
-    "ammoTypes": {
-      "debily-alloy":{
-        "type": "MissileBulletType",
-        "range": 300,
-        "lifetime": 230,
-        "homingPower": 0.1,
-        "damage": 33,
-        "speed": 4,
-        "height": 8,
-        "width": 8,
-        "shrinkY": 0,
-        "splashDamageRadius": 15,
-        "splashDamage": 33,
-        "hitEffect": "blastExplosion",
-        "despawnEffect": "blastExplosion"
-        "frontColor": "6d0075",
-        "backColor": "ee00ff",
-        "trailColor": "6d0075"
-        "shrinkY": -1
-      }
-    }  
+  "health": 2560,
+  "localizedName": "Debilysmo",
+  "description":
+   '''
+  [purple]testing
+   '''
+  "type": "ItemTurret",
+  "acceptCoolant": "true",
+  "range": 1600,
+  "reload": 150,
+  "inaccuracy": 15,
+  "rotateSpeed": 3.2,
+  "size": 3,
+  "category": "turret",
+  "requirements": [
+    "titanium/100",
+    "debily-alloy/75",
+    "plastanium/50",
+    "phase-fabric/50"
+  ],
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 33,
+    "barrels": 1,
+    "spread": 10,
+    "shotDelay": 0.5,
+    "range": 200
+  },
+  "consumes": {
+    "power": 5
+  },
+  "ammoTypes": {
+    "debily-alloy":{
+      "type": "MissileBulletType",
+      "ammoMultiplier": 1,
+      "range": 150,
+      "lifetime": 230,
+      "homingPower": 0.1,
+      "damage": 125,
+      "speed": 4,
+      "height": 8,
+      "width": 8,
+      "splashDamageRadius": 15,
+      "splashDamage": 125,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "frontColor": "6d0075",
+      "backColor": "ee00ff",
+      "trailColor": "6d0075",
+      "shrinkY": -1
+    }
+  }  
 }
