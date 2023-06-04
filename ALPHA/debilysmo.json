@@ -28,12 +28,12 @@
     "range": 200
   },
   "consumes": {
-    "power": 5
+    "power": 10
   },
   "ammoTypes": {
     "debily-alloy":{
       "type": "MissileBulletType",
-      "ammoMultiplier": 1,
+      "ammoMultiplier": 0.1,
       "range": 150,
       "lifetime": 230,
       "homingPower": 0.1,
