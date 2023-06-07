@@ -34,6 +34,8 @@
 
   • 1 Set of walls
 
+  • 1 Turret
+
   • 1 Crafter
 
   • ∞ Debilism

@@ -1,0 +1,57 @@
+{
+  "health": 2560,
+  "localizedName": "Debilysmo",
+  "ammoPerShot": 10,
+  "description":
+   '''
+  [purple]testing
+   '''
+  "type": "ItemTurret",
+  "acceptCoolant": "true",
+  "range": 800,
+  "reload": 150,
+  "inaccuracy": 15,
+  "rotateSpeed": 1.6,
+  "size": 3,
+  "category": "turret",
+  "requirements": [
+    "titanium/100",
+    "debily-alloy/75",
+    "plastanium/50",
+    "phase-fabric/50"
+  ],
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 33,
+    "barrels": 1,
+    "spread": 10,
+    "shotDelay": 0.5,
+    "range": 200
+  },
+  "consumes": {
+    "power": 10
+  },
+  "ammoTypes": {
+    "debily-alloy":{
+      "ammoPerShot": 7,
+      "buildingDamageMultiplier": 0.1,
+      "type": "MissileBulletType",
+      "ammoMultiplier": 1,
+      "range": 150,
+      "lifetime": 230,
+      "homingPower": 0.1,
+      "damage": 125,
+      "speed": 4,
+      "height": 8,
+      "width": 8,
+      "splashDamageRadius": 15,
+      "splashDamage": 125,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "frontColor": "6d0075",
+      "backColor": "ee00ff",
+      "trailColor": "6d0075",
+      "shrinkY": -1
+    }
+  }  
+}
